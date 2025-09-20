@@ -28,7 +28,7 @@ if not api_key:
 
 client = Mistral(api_key=api_key)
 MODEL = "mistral-large-latest"
-SYSTEM_PROMPT = "You are a friendly assistant. Keep answers short and helpful."
+SYSTEM_PROMPT = "You are a Health Bot assistant. Keep answers short and helpful."
 
 # ---- State ----
 if "messages" not in st.session_state:
